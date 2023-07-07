@@ -1,17 +1,8 @@
-/*
-c1- #937DC2
-c2- #C689C6
-c3- #FFABE1
-c4- #FFE6F7
-font-family: 'Blinker', sans-serif;
-font-family: 'Rubik Pixels', cursive;
- */
 *{
     margin:0;
     padding:0;
     font-family: 'Blinker', sans-serif;
     font-size: 20px;
-    /* color:#579bb1; */
 }
 body{
     background-color: black;
@@ -21,7 +12,6 @@ body{
     background-image: linear-gradient(40deg, #579BB1 10% , black 40% );
 }
 .outer{
-    /* background-image: linear-gradient(black 80%,#579bb1 130%); */
     background-image: linear-gradient(90deg,black 80%,#579bb1 110%);
     height:1000px;
 }
@@ -32,7 +22,6 @@ body{
     justify-content: center;
     gap:30px;
     font-size: 20px;
-    
 }
 .introBox{
     display:flex;
@@ -50,7 +39,6 @@ body{
 }
 .picBox{
     height:400px;
-    /* align-self: flex-end; */
 }
 #mypic{
     transform: translateX(-200%);
@@ -92,12 +80,10 @@ body{
 .panel a:hover{
     color:#579BB1;
     border-bottom: solid 2px #579BB1;
-    padding:5px;
     border-radius: 5px;
 }
 
 .eduHead{
-    /* font-family: 'Rubik Pixels', cursive; */
     font-size:25px;
     color: #579BB1;
     
@@ -175,7 +161,7 @@ input.inp{
     height:100px;
 }
 .about{
-    height:400px;
+    height:600px;
     display: flex;
     align-items: center;
     justify-content: center;
@@ -184,12 +170,18 @@ input.inp{
 }
 .about h1{
     font-size: 40px;
-    /* font-family: 'Rubik Pixels', cursive; */
-    /* font-weight: 100; */
     color: #579BB1;
     -webkit-text-stroke: 0.5px #579BB1;
     -webkit-text-fill-color: transparent;
 }
 .about p{
     color: #cfd6f2;
+}
+.footer{
+    background-color: #579bb1;
+    height:100px;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    gap:30px;
 }
